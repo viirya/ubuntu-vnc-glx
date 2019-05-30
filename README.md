@@ -15,3 +15,5 @@ docker run -it --rm -p 5900:5900 -e VNC_PASSWORD=password viirya/ubuntu-vnc-glx
 
 The VNC service port 5900 is forwarded to the host. You could open vnc viewer to connect to port 5900.
 
+You could run `glxinfo` to check GLX support.
+
